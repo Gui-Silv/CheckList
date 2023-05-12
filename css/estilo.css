@@ -1,0 +1,78 @@
+.menu {
+	margin-bottom: 25px;
+}
+
+.app {
+	margin-top: 50px;
+	padding: 20px 0 20px 0;
+	background: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: 1px solid rgb(243, 243, 243);
+}
+
+.pagina {
+	border:solid 1px #000000;
+	padding:25px !important;
+	border: 1px solid rgb(255, 0, 149);
+	background: rgba( 255, 255, 255, 0.35 );
+    box-shadow: 0 8px 32px 0 rgba(217, 219, 255, 0.37);
+    backdrop-filter: blur( 13.5px );
+    -webkit-backdrop-filter: blur( 13.5px );
+    border-radius: 2px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+li.list-group-item.active {
+	background-color: #ffffff;
+	color: rgb(250, 178, 178);
+	transition: 0.3s;
+	border: 1px solid #e0eefa;
+}
+
+li.list-group-item:hover {
+	background: rgba( 255, 255, 255, 0.35 );
+    box-shadow: 0 8px 5px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 13.5px );
+    -webkit-backdrop-filter: blur( 13.5px );
+    border-radius: 3px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+	border-left:solid 10px #e0eefa;
+	z-index: 5;
+}
+
+
+li a {
+	color: #050505;
+	
+}
+
+li a:hover {
+	text-decoration: none;
+}
+
+h4 {
+	color: #272727 !important;
+}
+
+.status-pendente {
+	color: white;
+	background-color: red;
+	border-radius: 10px;
+	padding: 3px;
+	font-size: 15px;
+	text-transform: capitalize;
+	  
+  }
+  
+  .status-feita {
+	color: white;
+	background-color: rgb(3, 175, 17);
+	border-radius: 10px;
+	padding: 3px;
+	font-size: 15px;
+	text-transform: capitalize;
+  }
+  
+
+
+
